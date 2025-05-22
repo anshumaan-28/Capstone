@@ -9,7 +9,7 @@ import os
 class INSATCOGConverter:
     def __init__(self, h5_file_path):
         self.h5_file_path = h5_file_path
-        self.output_dir = "output/converted_cogs"
+        self.output_dir = "../../output/converted_cogs"
         
         # Ensure output directory exists
         os.makedirs(self.output_dir, exist_ok=True)
